@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F41A948414FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41A948214FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.h */; };
+		F41A948514FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41A948314FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.m */; };
+		F4233C6F14FC2C0D00D4DEBB /* MKODownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F4233C6D14FC2C0D00D4DEBB /* MKODownloader.h */; };
+		F4233C7014FC2C0D00D4DEBB /* MKODownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F4233C6E14FC2C0D00D4DEBB /* MKODownloader.m */; };
+		F4B213F414E7F18E00D4E16D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B213F314E7F18E00D4E16D /* Foundation.framework */; };
+		F4B2140214E7F18E00D4E16D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B2140114E7F18E00D4E16D /* SenTestingKit.framework */; };
+		F4B2140414E7F18E00D4E16D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B2140314E7F18E00D4E16D /* UIKit.framework */; };
+		F4B2140514E7F18E00D4E16D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B213F314E7F18E00D4E16D /* Foundation.framework */; };
+		F4B2140814E7F18E00D4E16D /* libMKOFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B213F014E7F18D00D4E16D /* libMKOFoundation.a */; };
+		F4B2140E14E7F18E00D4E16D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4B2140C14E7F18E00D4E16D /* InfoPlist.strings */; };
+		F4B2141114E7F18E00D4E16D /* MKOFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B2141014E7F18E00D4E16D /* MKOFoundationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4B2140614E7F18E00D4E16D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4B213E714E7F18D00D4E16D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B213EF14E7F18D00D4E16D;
+			remoteInfo = MKOFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F41A948214FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKOJSONSchemaProcessor.h; sourceTree = "<group>"; };
+		F41A948314FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKOJSONSchemaProcessor.m; sourceTree = "<group>"; };
+		F41A948614FC2F0300ACCCA0 /* product.json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = product.json.txt; sourceTree = "<group>"; };
+		F41A948714FC2F0300ACCCA0 /* product.schema.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = product.schema.txt; sourceTree = "<group>"; };
+		F4233C6D14FC2C0D00D4DEBB /* MKODownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKODownloader.h; sourceTree = "<group>"; };
+		F4233C6E14FC2C0D00D4DEBB /* MKODownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKODownloader.m; sourceTree = "<group>"; };
+		F4B213F014E7F18D00D4E16D /* libMKOFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKOFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B213F314E7F18E00D4E16D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4B213F714E7F18E00D4E16D /* MKOFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKOFoundation-Prefix.pch"; sourceTree = "<group>"; };
+		F4B213F814E7F18E00D4E16D /* MKOFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKOFoundation.h; sourceTree = "<group>"; };
+		F4B2140014E7F18E00D4E16D /* MKOFoundationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKOFoundationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B2140114E7F18E00D4E16D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F4B2140314E7F18E00D4E16D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F4B2140B14E7F18E00D4E16D /* MKOFoundationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKOFoundationTests-Info.plist"; sourceTree = "<group>"; };
+		F4B2140D14E7F18E00D4E16D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4B2140F14E7F18E00D4E16D /* MKOFoundationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKOFoundationTests.h; sourceTree = "<group>"; };
+		F4B2141014E7F18E00D4E16D /* MKOFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKOFoundationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4B213ED14E7F18D00D4E16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B213F414E7F18E00D4E16D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B213FC14E7F18E00D4E16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B2140214E7F18E00D4E16D /* SenTestingKit.framework in Frameworks */,
+				F4B2140414E7F18E00D4E16D /* UIKit.framework in Frameworks */,
+				F4B2140514E7F18E00D4E16D /* Foundation.framework in Frameworks */,
+				F4B2140814E7F18E00D4E16D /* libMKOFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4B213E514E7F18D00D4E16D = {
+			isa = PBXGroup;
+			children = (
+				F4B213F514E7F18E00D4E16D /* MKOFoundation */,
+				F4B2140914E7F18E00D4E16D /* MKOFoundationTests */,
+				F4B213F214E7F18E00D4E16D /* Frameworks */,
+				F4B213F114E7F18D00D4E16D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4B213F114E7F18D00D4E16D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4B213F014E7F18D00D4E16D /* libMKOFoundation.a */,
+				F4B2140014E7F18E00D4E16D /* MKOFoundationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4B213F214E7F18E00D4E16D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4B213F314E7F18E00D4E16D /* Foundation.framework */,
+				F4B2140114E7F18E00D4E16D /* SenTestingKit.framework */,
+				F4B2140314E7F18E00D4E16D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4B213F514E7F18E00D4E16D /* MKOFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				F4B213F814E7F18E00D4E16D /* MKOFoundation.h */,
+				F4233C6D14FC2C0D00D4DEBB /* MKODownloader.h */,
+				F4233C6E14FC2C0D00D4DEBB /* MKODownloader.m */,
+				F41A948214FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.h */,
+				F41A948314FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.m */,
+				F4B213F614E7F18E00D4E16D /* Supporting Files */,
+			);
+			path = MKOFoundation;
+			sourceTree = "<group>";
+		};
+		F4B213F614E7F18E00D4E16D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4B213F714E7F18E00D4E16D /* MKOFoundation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4B2140914E7F18E00D4E16D /* MKOFoundationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4B2140F14E7F18E00D4E16D /* MKOFoundationTests.h */,
+				F4B2141014E7F18E00D4E16D /* MKOFoundationTests.m */,
+				F41A948614FC2F0300ACCCA0 /* product.json.txt */,
+				F41A948714FC2F0300ACCCA0 /* product.schema.txt */,
+				F4B2140A14E7F18E00D4E16D /* Supporting Files */,
+			);
+			path = MKOFoundationTests;
+			sourceTree = "<group>";
+		};
+		F4B2140A14E7F18E00D4E16D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4B2140B14E7F18E00D4E16D /* MKOFoundationTests-Info.plist */,
+				F4B2140C14E7F18E00D4E16D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4B213EE14E7F18D00D4E16D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4233C6F14FC2C0D00D4DEBB /* MKODownloader.h in Headers */,
+				F41A948414FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4B213EF14E7F18D00D4E16D /* MKOFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B2141414E7F18E00D4E16D /* Build configuration list for PBXNativeTarget "MKOFoundation" */;
+			buildPhases = (
+				F4B213EC14E7F18D00D4E16D /* Sources */,
+				F4B213ED14E7F18D00D4E16D /* Frameworks */,
+				F4B213EE14E7F18D00D4E16D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKOFoundation;
+			productName = MKOFoundation;
+			productReference = F4B213F014E7F18D00D4E16D /* libMKOFoundation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F4B213FF14E7F18E00D4E16D /* MKOFoundationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B2141714E7F18E00D4E16D /* Build configuration list for PBXNativeTarget "MKOFoundationTests" */;
+			buildPhases = (
+				F4B213FB14E7F18E00D4E16D /* Sources */,
+				F4B213FC14E7F18E00D4E16D /* Frameworks */,
+				F4B213FD14E7F18E00D4E16D /* Resources */,
+				F4B213FE14E7F18E00D4E16D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B2140714E7F18E00D4E16D /* PBXTargetDependency */,
+			);
+			name = MKOFoundationTests;
+			productName = MKOFoundationTests;
+			productReference = F4B2140014E7F18E00D4E16D /* MKOFoundationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4B213E714E7F18D00D4E16D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mako Technology Ltd.";
+			};
+			buildConfigurationList = F4B213EA14E7F18D00D4E16D /* Build configuration list for PBXProject "MKOFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4B213E514E7F18D00D4E16D;
+			productRefGroup = F4B213F114E7F18D00D4E16D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4B213EF14E7F18D00D4E16D /* MKOFoundation */,
+				F4B213FF14E7F18E00D4E16D /* MKOFoundationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4B213FD14E7F18E00D4E16D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B2140E14E7F18E00D4E16D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F4B213FE14E7F18E00D4E16D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4B213EC14E7F18D00D4E16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4233C7014FC2C0D00D4DEBB /* MKODownloader.m in Sources */,
+				F41A948514FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B213FB14E7F18E00D4E16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B2141114E7F18E00D4E16D /* MKOFoundationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4B2140714E7F18E00D4E16D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4B213EF14E7F18D00D4E16D /* MKOFoundation */;
+			targetProxy = F4B2140614E7F18E00D4E16D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4B2140C14E7F18E00D4E16D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B2140D14E7F18E00D4E16D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4B2141214E7F18E00D4E16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4B2141314E7F18E00D4E16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4B2141514E7F18E00D4E16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MKOFoundation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKOFoundation/MKOFoundation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F4B2141614E7F18E00D4E16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MKOFoundation.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKOFoundation/MKOFoundation-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F4B2141814E7F18E00D4E16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKOFoundation/MKOFoundation-Prefix.pch";
+				INFOPLIST_FILE = "MKOFoundationTests/MKOFoundationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F4B2141914E7F18E00D4E16D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKOFoundation/MKOFoundation-Prefix.pch";
+				INFOPLIST_FILE = "MKOFoundationTests/MKOFoundationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4B213EA14E7F18D00D4E16D /* Build configuration list for PBXProject "MKOFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B2141214E7F18E00D4E16D /* Debug */,
+				F4B2141314E7F18E00D4E16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B2141414E7F18E00D4E16D /* Build configuration list for PBXNativeTarget "MKOFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B2141514E7F18E00D4E16D /* Debug */,
+				F4B2141614E7F18E00D4E16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B2141714E7F18E00D4E16D /* Build configuration list for PBXNativeTarget "MKOFoundationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B2141814E7F18E00D4E16D /* Debug */,
+				F4B2141914E7F18E00D4E16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4B213E714E7F18D00D4E16D /* Project object */;
+}
