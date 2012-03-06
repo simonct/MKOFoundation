@@ -11,6 +11,9 @@
 		F41A948514FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41A948314FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.m */; };
 		F4233C6F14FC2C0D00D4DEBB /* MKODownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F4233C6D14FC2C0D00D4DEBB /* MKODownloader.h */; };
 		F4233C7014FC2C0D00D4DEBB /* MKODownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F4233C6E14FC2C0D00D4DEBB /* MKODownloader.m */; };
+		F4ACDE371506B54900FDA5BB /* NSObject+MKOFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F4ACDE351506B54900FDA5BB /* NSObject+MKOFoundation.h */; };
+		F4ACDE381506B54900FDA5BB /* NSObject+MKOFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ACDE361506B54900FDA5BB /* NSObject+MKOFoundation.m */; };
+		F4ACDE391506B54900FDA5BB /* NSObject+MKOFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ACDE361506B54900FDA5BB /* NSObject+MKOFoundation.m */; };
 		F4B213F414E7F18E00D4E16D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B213F314E7F18E00D4E16D /* Foundation.framework */; };
 		F4B2140214E7F18E00D4E16D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B2140114E7F18E00D4E16D /* SenTestingKit.framework */; };
 		F4B2140414E7F18E00D4E16D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B2140314E7F18E00D4E16D /* UIKit.framework */; };
@@ -37,6 +40,8 @@
 		F41A948714FC2F0300ACCCA0 /* product.schema.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = product.schema.txt; sourceTree = "<group>"; };
 		F4233C6D14FC2C0D00D4DEBB /* MKODownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKODownloader.h; sourceTree = "<group>"; };
 		F4233C6E14FC2C0D00D4DEBB /* MKODownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKODownloader.m; sourceTree = "<group>"; };
+		F4ACDE351506B54900FDA5BB /* NSObject+MKOFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MKOFoundation.h"; sourceTree = "<group>"; };
+		F4ACDE361506B54900FDA5BB /* NSObject+MKOFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MKOFoundation.m"; sourceTree = "<group>"; };
 		F4B213F014E7F18D00D4E16D /* libMKOFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKOFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B213F314E7F18E00D4E16D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4B213F714E7F18E00D4E16D /* MKOFoundation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKOFoundation-Prefix.pch"; sourceTree = "<group>"; };
@@ -110,6 +115,8 @@
 				F4233C6E14FC2C0D00D4DEBB /* MKODownloader.m */,
 				F41A948214FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.h */,
 				F41A948314FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.m */,
+				F4ACDE351506B54900FDA5BB /* NSObject+MKOFoundation.h */,
+				F4ACDE361506B54900FDA5BB /* NSObject+MKOFoundation.m */,
 				F4B213F614E7F18E00D4E16D /* Supporting Files */,
 			);
 			path = MKOFoundation;
@@ -153,6 +160,7 @@
 			files = (
 				F4233C6F14FC2C0D00D4DEBB /* MKODownloader.h in Headers */,
 				F41A948414FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.h in Headers */,
+				F4ACDE371506B54900FDA5BB /* NSObject+MKOFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +264,7 @@
 			files = (
 				F4233C7014FC2C0D00D4DEBB /* MKODownloader.m in Sources */,
 				F41A948514FC2E3000ACCCA0 /* MKOJSONSchemaProcessor.m in Sources */,
+				F4ACDE381506B54900FDA5BB /* NSObject+MKOFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4B2141114E7F18E00D4E16D /* MKOFoundationTests.m in Sources */,
+				F4ACDE391506B54900FDA5BB /* NSObject+MKOFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
